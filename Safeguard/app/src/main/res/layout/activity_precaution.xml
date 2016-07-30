@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bes">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="38dp"
+        android:text="SAFETY TIPS FOR WOMEN"
+        android:textSize="30dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Carry a Pepper Spray"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#191970"
+        android:textSize="40dp"
+        android:background="@drawable/shape"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="-Physical Self Defence training programs "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#191970"
+        android:textSize="40dp"
+        android:background="@drawable/shape" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:text="Be aware of surroundings"
+        android:textColor="#191970"
+        android:textSize="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/shape" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:text="-Avoid date drugs. Party safety measures"
+         android:textColor="#191970"
+        android:textSize="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/shape" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView5"
+        android:text="-Keep using BeSafe app."
+        android:textColor="#191970"
+        android:textSize="40dp"
+        android:background="@drawable/shape"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView2"
+        android:src="@drawable/pepper" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/imageView1"
+        android:src="@drawable/mm" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/scream" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView4"
+        android:src="@drawable/martial" />
+
+</RelativeLayout>

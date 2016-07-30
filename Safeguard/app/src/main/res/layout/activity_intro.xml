@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:fillViewport="true">
+<GridLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/women"
+    android:columnCount="1"
+    android:rowCount="5" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="0"
+        android:fontFamily="Monotype Corsovia"
+        android:gravity="center"
+        android:text="Safeguard"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="404dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="3"
+        android:gravity="center"
+        android:text="Hello Users, this is an App completely dedicated to your safety. Whenever you are in danger and don&apos;t know what action to take quickly, just open this app and help is on a click away !!\nWith this app, you can\n-Send a quick danger sms to your family\n-Play alarm to alert your environment\n-Send a quick emergency email alongwith photographic evidence \n-Learn some methods to avoid danger\n-Track your present location and notify your contacts about your location\n-Call your contacts\n\nSo, go ahead and be safe :)"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="331dp"
+        android:layout_height="69dp"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="15dp"
+        android:layout_row="4"
+        android:text="Continue" />
+
+</GridLayout>
+</ScrollView>

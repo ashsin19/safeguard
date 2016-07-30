@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bes"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        android:text="DISTRESS SMS" />
+
+    <Button
+        android:id="@+id/button2"
+         android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        android:text="START ALARM" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_height="61dp"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        android:text="\nEMERGENCY EMAIL"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        android:layout_height="69dp"
+        android:text="PRECAUTION" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/button"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/button6" />
+
+</LinearLayout>
